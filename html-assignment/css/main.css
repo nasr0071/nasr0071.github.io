@@ -1,0 +1,19 @@
+/* Change font of body */
+body {
+   font-family: Arial, Helvetica, sans-serif; font-size: 18px;
+}
+
+/* Selecte header and footer and change background color */
+header, footer {
+   background-color: #F59900;
+}
+
+/* Change color of font for site-title (added class to h1) */
+.site-title {
+   color: #480A02;
+}
+
+/* Uses ID selector to add box-shadow to my picture */
+#my-image {
+   box-shadow: 0 0 2px 1px #000;
+}
