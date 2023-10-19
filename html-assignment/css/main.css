@@ -9,7 +9,7 @@ header, footer {
 }
 
 /* Change color of font for site-title (added class to h1) */
-.sitetitle {
+.site-title {
    color: #792b21;
 }
 
