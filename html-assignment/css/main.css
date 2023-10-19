@@ -9,11 +9,26 @@ header, footer {
 }
 
 /* Change color of font for site-title (added class to h1) */
-.site-title {
-   color: #480A02;
+.sitetitle {
+   color: #792b21;
 }
 
 /* Uses ID selector to add box-shadow to my picture */
-#my-image {
+#myimage {
    box-shadow: 0 0 2px 1px #000;
+}
+
+/* Replace the bullet points to squares */
+.squarebullet {
+   list-style: square;
+}
+
+/* Add background to the odd list items in the hobby list */
+.squarebullet li:nth-child(odd){
+   background-color: #ffe6be;
+}
+
+/* ------------Styling Navigation------------*/
+nav ul {
+   list-style: none;
 }
