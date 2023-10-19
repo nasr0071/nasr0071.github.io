@@ -14,7 +14,7 @@ header, footer {
 }
 
 /* Uses ID selector to add box-shadow to my picture */
-#myimage {
+#my-image {
    box-shadow: 0 0 2px 1px #000;
 }
 
@@ -44,13 +44,10 @@ nav ul a,
 nav ul a:link,
 nav ul a:visited {
    background-color: #ffe6be;
-   box-shadow: -1px 1px 2px 1px #5a2118;
+   border: 1px solid #5a2118;
 }
 
 /* Change background colour on hover and focus state of links */
-nav ul .current,
-nav ul a:hover, 
-nav ul a:focus {
-   text-decoration: underline;
+nav ul a:hover {
    background-color: #ffc66a;
 }
