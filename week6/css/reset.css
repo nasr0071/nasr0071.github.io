@@ -10,25 +10,6 @@ Shortcut for adding a comment is Ctrl + /
     background-image: url(../images/white_brick_wall.png);
  }
 
- /* box model example */
- section p {
-   width: 50%;
-   /* 2 values = first value-top/bottom | second value-left/right */
-   padding: 1rem .5rem;
-   /* 4 values = top bottom left right */
-   margin: -1em 2em 2em 2em;
-   border-bottom: 2px solid black;
- }
-
- .container {
-   max-width: 1200px;
-   margin:0 auto;
- }
-
- img {
-   width: 100%;
- }
-
  h1 {
     color: cadetblue;
  }
@@ -47,19 +28,11 @@ Shortcut for adding a comment is Ctrl + /
     list-style: none;
  }
 
- nav ul li {
-   display: inline-block;
-   width: 49%;
-   padding: 1em;
-   box-sizing: border-box;
- }
-
  nav ul a {
     color: darkslategray;
     text-decoration: none;
     font-size: 1.5rem;
     /* 1.5rem (html font size) = 16px * 1.5 = 24px */
-    display: block;
  }
 
  /* Selecting element with ID value */
