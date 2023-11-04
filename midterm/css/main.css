@@ -1,7 +1,7 @@
 /* Font for body */
 body {
    font-family: Arial, Helvetica, sans-serif;
-   font-size: 12px;
+   font-size: 11px;
 }
 
 /* Bakcground image for main header */
@@ -9,7 +9,7 @@ h1{
    margin: 0;
    padding: 100px 0 50px;
    text-align: center;
-   font-size: 40px;
+   font-size: 35px;
    color: #ffffff;
    background-image: url(../images/lone-starfish-wide.jpg);
    background-position: center;
@@ -27,6 +27,7 @@ h1{
 nav li{
    display: inline;
    font-size: 17px;
+   font-weight: normal;
 }
 
 nav ul a {
@@ -111,3 +112,10 @@ nav ul a {
  .wordbox input[type="text"]#message {
    height: 50px; /* Adjust the height to be three times larger (30px * 3) */
  }
+
+ /* resize image */
+ img {
+   width: 25%;
+ }
+
+ /* font formatting */
