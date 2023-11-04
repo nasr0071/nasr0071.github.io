@@ -98,6 +98,8 @@ nav ul a {
 
  .wordbox input {
    width: 98%; /* This will make the input boxes stretch to 100% of their container's width */
+   border: 0.2px solid rgb(156, 156, 156); /* Add a border to create a sharp rectangle */
+   border-radius: 0; /* Remove any border-radius to ensure a sharp edge */
  }
 
  form button[type="send"] {
@@ -137,4 +139,9 @@ h3{
 footer{
    padding: 15px;
    text-align: right;
+}
+
+h4{
+   font-weight: normal;
+   font-size: 13px;
 }
