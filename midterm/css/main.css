@@ -116,7 +116,7 @@ nav ul a {
    cursor: pointer;
  }
 
- .wordbox input[type="submit"]#message {
+ .wordbox input#message {
    height: 50px;
  }
 
