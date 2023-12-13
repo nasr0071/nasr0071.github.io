@@ -23,7 +23,7 @@ img {
 h1,
 h2,
 h3,
-h4{
+h4 {
     font-weight: bold;
     margin: 1em 0 0.5em;
 }
@@ -44,6 +44,7 @@ h3 {
 h4 {
     font-size: 1.5rem;
 }
+
 p {
     margin: 1em 0;
 }
@@ -54,16 +55,26 @@ p {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1em;
 }
 
 /*******************************************************/
 /***************** Styling navigation ******************/
 /*******************************************************/
 
+/* add border to nav */
+.main-nav {
+    padding: 1em;
+}
+
+/* styling logo size and border */
+.mainlogo {
+    max-width: 150px;
+    padding: 1em;
+}
+
 /* center text */
 .main-head {
-    background-color: rgb(15, 15, 1);
+    background-color: #100C08;
 }
 
 .main-nav {
@@ -76,23 +87,63 @@ p {
     display: block;
     padding: 1em 0;
     text-decoration: none;
-    color: orange;
+    color: #C68D00;
 }
 
 /* change nav items on hover */
 .nav-list a:hover {
-    color: black;
-    background-color: orange;
+    color: #100C08;
+    background-color: #C68D00;
 }
 
 /* search box layout */
+.searchbox {
+    display: flex;
+    width: 100%;
+}
+
 .searchbox input {
     flex: 1;
     padding: 8px;
-    margin-right: 0;
 }
 
 .searchsubmit {
     padding: 8px;
-    margin-left: 0;
 }
+
+/*******************************************************/
+/***************** Styling Welcome ******************/
+/*******************************************************/
+
+/* styling connect with us button */
+.connect-link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: #C68D00;
+    color: #100C08;
+}
+
+/* Styling the welcome card and adding background image*/
+.background {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-bottom: 1em;
+    height: auto;
+    background-image: url(../images/main-banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* adding the transparent background colour behind the text */
+.welcome {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    color: white;
+}
+
+/*******************************************************/
+/***************** Styling Cards ******************/
+/*******************************************************/
+
+
