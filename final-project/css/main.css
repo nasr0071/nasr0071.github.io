@@ -1,0 +1,42 @@
+
+
+
+
+
+/***************** Styling navigation ******************/
+/* center text */
+.main-head {
+    background-color: rgb(15, 15, 1);
+}
+
+.main-nav { 
+    text-align: center;
+    
+}
+
+/* styling nav to have a block colour around text when hovering*/
+.nav-list a{
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+    color: orange;
+}
+
+/* change nav items on hover */
+.nav-list a:hover {
+    color: black;
+    background-color: orange;
+}
+
+/* search box layout */
+.searchbox input {
+    flex: 1;
+    padding: 8px; 
+    margin-right: 0;
+}
+
+.searchsubmit {
+    padding: 8px;
+    margin-left: 0;
+}
+
