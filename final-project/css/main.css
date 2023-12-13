@@ -128,7 +128,6 @@ p {
 .background {
     padding-top: 5em;
     padding-bottom: 5em;
-    margin-bottom: 1em;
     height: auto;
     background-image: url(../images/main-banner.jpg);
     background-position: center;
@@ -143,7 +142,20 @@ p {
 }
 
 /*******************************************************/
-/***************** Styling Cards ******************/
+/***************** Styling About Us ******************/
 /*******************************************************/
+
+.aboutus {
+    background-color: #ffebb9;
+    padding: 1em;
+}
+
+/*******************************************************/
+/***************** Styling Our Services Cards **********/
+/*******************************************************/
+
+.our-services {
+    padding: 1em;
+}
 
 
