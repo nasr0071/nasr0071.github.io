@@ -207,3 +207,24 @@ p {
 /*******************************************************/
 /***************** Styling Our Team Card ***************/
 /*******************************************************/
+
+/* background colour and margin to the section */
+.john, .bob {
+    background-color: #ffebb9;
+    margin-bottom: 1em;
+}
+
+/* padding to text */
+.teaminfo {
+    padding: 1em;
+}
+
+/* colour to horizontal line */
+.hori-line {
+    border-color: #C68D00;
+}
+
+/* border to whole section */
+.team-cards {
+    padding: 1em;
+}
