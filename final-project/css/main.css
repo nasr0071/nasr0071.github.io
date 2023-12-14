@@ -154,8 +154,56 @@ p {
 /***************** Styling Our Services Cards **********/
 /*******************************************************/
 
+/* styling the entire section */
 .our-services {
+    padding: 1em;
+    margin-top: 0;
+}
+
+/* adding the background colour behind the card */
+.wrapper {
+    background-color: #ffebb9;
+    margin-bottom: 1em;
+}
+
+/* adding padding to the written content */
+.wrapper .info {
+    padding: 1em;
+ }
+
+/* styling buttons */
+.service-link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: #100C08;
+    color: white;
+}
+
+/*******************************************************/
+/***************** Styling Our Vision Card *************/
+/*******************************************************/
+
+/* adding background image and styling */
+.vision {
+    background-image: url(../images/vision.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    color: white;
     padding: 1em;
 }
 
+/* styling button */
+.learnmore {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background-color:  rgba(0, 0, 0, 0.5);
+    border: 1px solid #C68D00;
+    color: white;
+}
 
+/*******************************************************/
+/***************** Styling Our Team Card ***************/
+/*******************************************************/
