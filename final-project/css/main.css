@@ -345,6 +345,7 @@ p {
     .desktoplogo {
         display: inline-block;
         max-width: 80px;
+        padding-right: 3em;
     }
 
     .nav-list {
@@ -357,10 +358,16 @@ p {
     .nav-list li {
         flex: 1;
         border: none;
-        padding-top: 1em;
     }
 
-    /* styling all cards, contact us, footer */
+    .nav-list li:not(:first-child){
+        margin-top: 1em;
+    }
+
+    .nav-list li:last-child{
+        padding-top: 8px;
+    }
+
 
     /* styling welcome */
     .welcome {
@@ -387,7 +394,51 @@ p {
         max-width: 500px;
     }
 
+    /* our services styling */
 
+    /* Im sorry, i couldnt for the life of me
+    figure out how to do this part. I decided 
+    to keep it looking wrong just for the feedback. 
+    Thank you :D */
+
+    .deskservices {
+        display: grid;
+        max-width: 1000px;
+        margin: 0 auto;
+        gap: 1em;
+        grid-template-columns: repeat(6, auto);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "one one one one one one"
+            "dig dig dig mar mar mar"
+            "vid vid web web pri pri";
+    }
+
+    .one {
+        grid-area: one;
+    }
+
+    .dig {
+        grid-area: dig;
+    }
+
+    .mar {
+        grid-area: mar;
+    }
+
+    .vid {
+        grid-area: vid;
+    }
+
+    .web {
+        grid-area: web;
+    }
+
+    .pri {
+        grid-area: pri;
+    }
     
+    
+
 } 
 /* media end */
