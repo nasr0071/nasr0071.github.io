@@ -169,7 +169,7 @@ p {
 /* adding padding to the written content */
 .wrapper .info {
     padding: 1em;
- }
+}
 
 /* styling buttons */
 .service-link {
@@ -199,7 +199,7 @@ p {
     text-decoration: none;
     display: inline-block;
     padding: 20px;
-    background-color:  rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid #C68D00;
     color: white;
 }
@@ -209,7 +209,8 @@ p {
 /*******************************************************/
 
 /* background colour and margin to the section */
-.john, .bob {
+.john,
+.bob {
     background-color: #ffebb9;
     margin-bottom: 1em;
 }
@@ -227,4 +228,91 @@ p {
 /* border to whole section */
 .team-cards {
     padding: 1em;
+}
+
+/*******************************************************/
+/************* Styling Contact Us Section***************/
+/*******************************************************/
+
+/* add padding to section */
+.contactus {
+    padding: 1em;
+}
+
+/* styling text boxes */
+.wordbox label {
+    display: block;
+    margin-top: 5px;
+}
+
+
+.wordbox input {
+    padding: 0.5em;
+    width: 98%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* message box sizing */
+.wordbox input#message {
+    height: 100px;
+}
+
+/* button styling */
+.contactsend {
+    background: #100C08; 
+    color: #C68D00;
+    padding: 5px 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+/*******************************************************/
+/************* Styling Hours Section********************/
+/*******************************************************/
+
+/* width of table */
+.hourstable {
+    width: 100%;
+}
+
+/* styling table */
+.hourstable th, td {
+    border: 1px solid #000000;
+    padding: 1em;
+    text-align: left;
+}
+
+/* styles for top row */
+.hourstable th {
+    background-color: #ffebb9; 
+    text-align: center;
+}
+
+/*******************************************************/
+/************* Styling Map *****************************/
+/*******************************************************/
+.map iframe, .location {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+.location {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*******************************************************/
+/************* Styling Footer **************************/
+/*******************************************************/
+
+.site-footer {
+    background-color: #100C08;
+    color: #C68D00;
+    padding: 1em;
+}
+
+.site-footer i {
+    margin-top: 20px;
 }
