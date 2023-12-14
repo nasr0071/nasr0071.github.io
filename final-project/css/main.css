@@ -4,7 +4,7 @@
 
 /* Font for entire site */
 html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     box-sizing: border-box;
 }
@@ -25,7 +25,7 @@ h2,
 h3,
 h4 {
     font-weight: bold;
-    margin: 1em 0 0.5em;
+    margin: 0.2em 0 0.5em;
 }
 
 /* Adjusting font sizing */
@@ -60,6 +60,10 @@ p {
 /*******************************************************/
 /***************** Styling navigation ******************/
 /*******************************************************/
+/* hiding desktop logo */
+.desktoplogo {
+    display: none;
+}
 
 /* add border to nav */
 .main-nav {
@@ -246,6 +250,10 @@ p {
     padding: 1em;
 }
 
+.contact {
+    padding-right: 1em;
+}
+
 /* styling text boxes */
 .wordbox label {
     display: block;
@@ -255,7 +263,7 @@ p {
 
 .wordbox input {
     padding: 0.5em;
-    width: 98%;
+    width: 100%;
     border: 1px solid rgb(0, 0, 0);
 }
 
@@ -323,3 +331,63 @@ p {
 .site-footer i {
     margin-top: 20px;
 }
+
+/*******************************************************/
+/************* DESTOP STYLES **************************/
+/*******************************************************/
+
+@media screen and (min-width:760px) {
+    /* navigtion layout change */
+    .mainlogo {
+        display: none;
+    }
+
+    .desktoplogo {
+        display: inline-block;
+        max-width: 80px;
+    }
+
+    .nav-list {
+        display: flex;
+        /* IMPORTANT!!! */
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .nav-list li {
+        flex: 1;
+        border: none;
+        padding-top: 1em;
+    }
+
+    /* styling all cards, contact us, footer */
+
+    /* styling welcome */
+    .welcome {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    /* styling about us */
+    .aboutcontent {
+        display: flex;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .aboutus{
+        background-color: #ffebb9;
+        margin-top: 0;
+    }
+
+    .aboutus img {
+        flex: 1;
+        margin-right: 1em; 
+        max-width: 500px;
+    }
+
+
+    
+} 
+/* media end */
