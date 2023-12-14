@@ -399,49 +399,67 @@ td {
 
     /* our services styling */
 
-    /* Im sorry, i couldnt for the life of me
-    figure out how to do this part. I decided 
-    to keep it looking wrong just for the feedback. 
-    Thank you :D */
-
-    .deskservices {
+    .our-services {
         display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, auto);
         max-width: 1000px;
         margin: 0 auto;
-        gap: 1em;
-        grid-template-columns: repeat(6, auto);
-        grid-template-rows: repeat(3, auto);
-        grid-template-areas:
-            "one one one one one one"
-            "dig dig dig mar mar mar"
-            "vid vid web web pri pri";
+        padding: 1em;
+        column-gap: 1em;
     }
-
+    /* title */
     .one {
-        grid-area: one;
+        grid-column: 1 / span 6;
+        grid-row: 1;
+    }
+    /* cards */
+    .services {
+        grid-column: 1 / span 3;
+        grid-row: 2;
     }
 
-    .dig {
-        grid-area: dig;
+    .marketing {
+        grid-column: 4 / span 3;
+        grid-row: 2;
     }
 
-    .mar {
-        grid-area: mar;
+    .videoproduction {
+        grid-column: 1 / span 2;
+        grid-row: 3;
     }
 
-    .vid {
-        grid-area: vid;
+    .webdevelopment {
+        grid-column: 3 / span 2;
+        grid-row: 3;
     }
 
-    .web {
-        grid-area: web;
+    .print {
+        grid-column: 5 / span 2;
+        grid-row: 3;
     }
 
-    .pri {
-        grid-area: pri;
+    /* text styling of services */
+    .wrapper {
+        align-items: center;
+        text-align: left;
+        
     }
+    
+    .wrapper img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .service-link {
+        display: block;
+        width: auto;
+        text-align: center;
+    }
+
 
     /* our vision */
+
     .visioninfo {
         max-width: 1000px;
         margin: 0 auto;
@@ -462,14 +480,15 @@ td {
         text-align: left;
     }
     
+    /* text team */
     .john,
     .bob {
         display: flex;
         margin: 0;
         flex-direction: row;
-        align-items: center;
     }
 
+    /* images team */
     .johnimg,
     .bobimg {
         max-width: 50%;
@@ -477,9 +496,55 @@ td {
     }
 
     .bob {
-        flex-direction: row-reverse; /* Reverse the order */
+        flex-direction: row-reverse;
+    }
+
+    /* contact us */
+
+    .contactus {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 1em;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .message {
+        grid-column: 1 / span 1;
+        grid-row: 2;
+    }
+
+    .contacttitle {
+        grid-column: 1 / span 1;
+        grid-row: 1;
+    }
+
+    .contact {
+        grid-column: 1 / span 1;
+        grid-row: 2;
+    }
+
+    .hoursop {
+        grid-column: 1 / span 2;
+        grid-row: 3;
+    }
+
+    .map-container {
+        grid-column: 2 / span 1;
+        grid-row: 2;
+    }
+
+    /* footer */
+    .foottext {
+        max-width: 1000px;
+        margin: 0 auto;
     }
 
 }
 
 /* media end */
+
+/* thank you for a great semester! :D */
