@@ -111,6 +111,13 @@ p {
     padding: 8px;
 }
 
+/* styling search button */
+.searchsubmit {
+    background-color: #100C08;
+    border: 1px solid #C68D00;
+    color: #C68D00;
+}
+
 /*******************************************************/
 /***************** Styling Welcome ******************/
 /*******************************************************/
