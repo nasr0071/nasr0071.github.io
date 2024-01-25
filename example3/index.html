@@ -27,12 +27,20 @@
             <!-- <p id="htmlLabel">Do you like cheese</p> -->
             <label for="cheese">Do you like cheese</label>
             <input type="checkbox" id="cheese"/>
+            
             <h2>aria-label</h2>
             <button aria-label="Add white t-shirt into your cart">Add to cart</button>
             <button>Add to cart</button>
+            
             <h2>aria-labelledby</h2>
             <button aria-label="blue" aria-labelledby="red">yellow</button>
             
+            <h2>aria-describedby</h2>
+            <div>
+                <button aria-describedby="trash-msg">Move to trash</button>
+                <p id="trash-msg">Items in the trash will be permanently removed after 30 days.</p>
+            </div>
+
         </div>
     </main>
     
