@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: rgb(0, 97, 65);
+        }
+        h1{
+            color: white;
+            padding: 1em;
+        }
+        #htmlLabel{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>All about labels</h1>
+    </header>
+    <main>
+        <h2>HTML/form labels</h2>
+        <div>
+            <!-- <p id="htmlLabel">Do you like cheese</p> -->
+            <label for="cheese">Do you like cheese</label>
+            <input type="checkbox" id="cheese"/>
+            <h2>aria-label</h2>
+            <button aria-label="Add white t-shirt into your cart">Add to cart</button>
+            <button>Add to cart</button>
+            <h2>aria-labelledby</h2>
+            <button aria-label="blue" aria-labelledby="red">yellow</button>
+            
+        </div>
+    </main>
+    
+</body>
+</html>
